@@ -1,1 +1,3 @@
 The current project is to create a webpage, one of the recipe webpage variety. The skills I will have demonstrated by the end seem primarily focused around HTML and utilizing Github. Now that I have finished the assignment I feel far more confident in the way paragraphs and the general layouts work in HTML I also found it redundant scrolling everywhere so I added a simple home button to help with navigation.
+
+Today i added CSS to the pages. I went a little past the curriculum just to challenge myself as CSS can get a bit boring. This was fun. But never the less i added a hidden rating system to the photos, double home buttons and other than that just some better looks to the homepage.

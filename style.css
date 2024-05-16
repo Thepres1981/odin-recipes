@@ -1,0 +1,49 @@
+/* style */
+
+.header {
+    font-size: 50px;
+    background-color: lightgray;
+    text-align: center;
+    color: darkgray;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+.recipe {
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Verdana', sans-serif;
+}
+
+.r1 {
+    color: darkorange;}
+
+.r2 {
+    color: lightcoral;
+}
+
+.r3 {
+    color: lightpink;
+}
+
+.recipe:hover {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+@keyframes linkAnimation {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.recipe {
+    animation: linkAnimation 0.5s ease-out;
+}
